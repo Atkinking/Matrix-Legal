@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Digital Identitet och Sociala Medier - Forskning med Ansiktsigenkänning
 
 ## Projektöversikt
@@ -189,3 +190,18 @@ För frågor om projektet, kontakta projektledaren.
 - **Transparens**: Öppen källkod för granskning
 - **Ansvar**: Ansvarstagande för dataanvändning
 - **Reverse Image Search**: Används endast för forskning och etiska ändamål
+=======
+# Matrix-Legal
+
+Detta repo innehåller de juridiska dokument som krävs för Meta/Facebook-apparna:
+
+- **Privacy Policy:** [privacy.html](https://atinking.github.io/Matrix-Legal/privacy.html)  
+- **Data Deletion Instructions:** [data-deletion.html](https://atinking.github.io/Matrix-Legal/data-deletion.html)  
+
+## Syfte
+Repon används för att tillhandahålla öppet tillgängliga länkar för Meta Developer Console, så att vår app **Matrix** kan godkännas för inloggning via Facebook/Instagram.
+
+## Kontakt
+För frågor kring data eller integritet:  
+📧 lunsat14@gmail.com
+>>>>>>> fffcdc084d7c3904d17464b35881276618aecc6d
