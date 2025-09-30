@@ -1,0 +1,49 @@
+# Konfigurationsinställningar för Digital Identitetsforskning
+
+# Allmänna inställningar
+general:
+  project_name: "Digital Identitetsforskning"
+  version: "1.0.0"
+  debug: true
+  log_level: "INFO"
+
+# Ansiktsigenkänning
+face_recognition:
+  model: "hog"  # eller "cnn" för bättre precision
+  tolerance: 0.6
+  max_faces: 10
+  image_size: 150
+
+# Sociala medier
+social_media:
+  rate_limit:
+    twitter: 100  # API-anrop per timme
+    instagram: 200
+    facebook: 100
+  timeout: 30  # sekunder
+  retry_attempts: 3
+
+# Datahantering
+data:
+  database_path: "data/research.db"
+  backup_frequency: "daily"
+  cleanup_days: 30
+  encryption: true
+
+# Analys
+analysis:
+  confidence_threshold: 0.5
+  consistency_threshold: 0.7
+  quality_threshold: 0.6
+
+# Rapporter
+reports:
+  output_format: ["json", "html", "csv"]
+  include_images: true
+  anonymize_data: false
+
+# Säkerhet
+security:
+  encrypt_sensitive_data: true
+  hash_identifiers: true
+  gdpr_compliant: true

@@ -1,0 +1,57 @@
+# Grundläggande bibliotek
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
+
+# Ansiktsigenkänning och bildbehandling
+opencv-python>=4.5.0
+face-recognition>=1.3.0
+dlib>=19.22.0
+Pillow>=8.3.0
+
+# Maskinlärning
+tensorflow>=2.8.0
+torch>=1.11.0
+torchvision>=0.12.0
+
+# API och nätverk
+requests>=2.26.0
+tweepy>=4.0.0
+instagram-basic-display>=1.0.0
+facebook-sdk>=3.1.0
+
+# Databas och lagring
+sqlalchemy>=1.4.0
+
+# Kryptering och säkerhet
+cryptography>=3.4.0
+
+# Konfiguration och miljö
+python-dotenv>=0.19.0
+pyyaml>=6.0
+
+# Testning
+pytest>=6.2.0
+pytest-cov>=2.12.0
+
+# Dokumentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=0.5.0
+
+# Jupyter för analys
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Data visualisering
+plotly>=5.0.0
+bokeh>=2.4.0
+
+# Bildförbättring
+scikit-image>=0.18.0
+imageio>=2.9.0
+
+# Progress bars och UI
+tqdm>=4.62.0
+rich>=10.0.0
